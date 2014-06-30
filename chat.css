@@ -1,0 +1,60 @@
+body{
+    font-family: Tahoma, Helvetica, sans-serif;
+    margin: 1px;
+    font-size: 12px;
+    text-align: left;
+}
+
+#content{
+    border: DarkGreen 1px solid;
+    
+    margin-bottom: 10px;
+}
+
+.room:hover{
+    cursor: pointer;
+    background-color: lightblue;
+}
+.room{
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 10px;
+    height: 50px;
+    background-color: lightgrey;
+    margin-bottom: 3px;
+}
+
+input{
+    border: #999 1px solid;
+    font-size: 10px;
+}
+.error{
+    color: darkred;
+}
+#scroll{
+   /* border: 1px solid black;*/
+    position: relative;
+    width: 640px;
+    height: 370px;
+    overflow: auto;/*allow scrolling*/
+}
+#userOnline{
+    position: relative;
+    width: 200px;
+    height: 370px;
+    overflow: auto;
+    border-left: DarkGreen 1px solid;
+}
+
+.item{
+    margin-bottom: 3px;
+}
+
+/*#colorpicker{
+    text-align: center;
+}*/
+.listOfUser{
+    margin-bottom: 1px;
+    margin-left: 6px;
+    color: lightgrey;
+}
